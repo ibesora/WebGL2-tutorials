@@ -4,7 +4,7 @@ function initGL(canvas) {
 
 	try {
 
-		glContext = canvas.getContext("webgl");
+		glContext = canvas.getContext("webgl2");
 		glContext.viewportWidth = canvas.width;
 		glContext.viewportHeight = canvas.height;
 
